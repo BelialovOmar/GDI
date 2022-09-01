@@ -17,14 +17,29 @@ namespace Lesson_1
             InitializeComponent();
         }
 
-
+        // Practice 1
         int cnt = 0;
 
         private void button1_Click(object sender, EventArgs e)
         {
-                cnt++;
-                button1.Text = $"{cnt}";
-                
+            Button b = sender as Button;
+            cnt++;
+            b.Text = cnt + "";
+        }
+
+        // Practice 2
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void button2_MouseEnter(object sender, EventArgs e)
+        {
+            Button b = sender as Button;
+            Random rnd = new Random();
+
+            b.Location = new Point(rnd.Next(350), rnd.Next(350));
         }
     }
 }
