@@ -17,7 +17,9 @@ namespace Lesson_1
             InitializeComponent();
         }
 
+
         int cnt = 0;
+
         private void button1_Click(object sender, EventArgs e)
         {
                 cnt++;
