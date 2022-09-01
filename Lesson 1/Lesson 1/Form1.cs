@@ -23,7 +23,7 @@ namespace Lesson_1
         private void button1_Click(object sender, EventArgs e)
         {
                 cnt++;
-                label1.Text = $"Pressed {cnt} times";
+                button1.Text = $"{cnt}";
                 
         }
     }
