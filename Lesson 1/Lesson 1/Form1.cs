@@ -27,13 +27,8 @@ namespace Lesson_1
             b.Text = cnt + "";
         }
 
+
         // Practice 2
-        private void button2_MouseLeave(object sender, EventArgs e)
-        {
-            
-
-        }
-
         private void button2_MouseEnter(object sender, EventArgs e)
         {
             Button b = sender as Button;
@@ -41,5 +36,31 @@ namespace Lesson_1
 
             b.Location = new Point(rnd.Next(350), rnd.Next(350));
         }
+
+
+        // Practice 3 - доделал после пары, предыдущие сделал на паре
+        Button button;
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            button = new Button();
+
+            button.Location = new Point(e.X, e.Y);
+            this.Controls.Add(button);
+
+        }
+
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        
+
+
     }
 }
