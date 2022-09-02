@@ -26,7 +26,7 @@ namespace Lesson_1
         {
             Point? newLocation = null;
 
-            if (e.KeyValue == 39)  // up
+            if (e.KeyValue == 38)  // up
             {
                 newLocation = new Point(this.Location.X, this.Location.Y - 50);
             }
