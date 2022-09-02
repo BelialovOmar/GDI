@@ -17,14 +17,9 @@ namespace Lesson_1
             InitializeComponent();
         }
 
-        // Practice 1
-        int cnt = 0;
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Button b = sender as Button;
-            cnt++;
-            b.Text = cnt + "";
+            new Form2().ShowDialog();
         }
 
 
@@ -102,6 +97,16 @@ namespace Lesson_1
         private void Form1_MouseUp(object sender, MouseEventArgs e)
         {
             release = true;   // кнопку отпустили
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new Form4().ShowDialog();
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            
         }
     }
 }
