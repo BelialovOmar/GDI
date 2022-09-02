@@ -23,12 +23,13 @@ namespace Lesson_1
         }
 
         int cnt = 0;
-
-        private void button1_Click(object sender, EventArgs e)
+        
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            Button b = sender as Button;
-            cnt++;
-            b.Text = cnt + "";
+
+           Button b = sender as Button;
+           cnt++;
+           b.Text = cnt + "";
         }
     }
 }

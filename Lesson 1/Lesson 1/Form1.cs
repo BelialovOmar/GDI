@@ -108,5 +108,10 @@ namespace Lesson_1
         {
             
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new TimerForm().ShowDialog();
+        }
     }
 }
