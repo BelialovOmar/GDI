@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Lesson_1
 {
-    public partial class Form5 : Form
+    public partial class RemoveButtons : Form
     {
         private const int I = 5;     // размер матрицы, строка
         private const int J = 5;     // размер матрицы, столбец
@@ -22,7 +22,7 @@ namespace Lesson_1
 
         int num = 0;      // порядковый номер ячейки
 
-        public Form5()
+        public RemoveButtons()
         {
             InitializeComponent();
 

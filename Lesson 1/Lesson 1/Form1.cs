@@ -109,14 +109,14 @@ namespace Lesson_1
             
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void TimerDemo_Click(object sender, EventArgs e)
         {
             new TimerForm().ShowDialog();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void RemoveButtons_Click(object sender, EventArgs e)
         {
-            new Form5().ShowDialog();
+            new RemoveButtons().ShowDialog();
         }
     }
 }

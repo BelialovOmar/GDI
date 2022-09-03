@@ -53,7 +53,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.labelTime);
             this.Name = "TimerForm";
-            this.Text = "TimerForm";
+            this.Text = "Timer";
             this.ResumeLayout(false);
             this.PerformLayout();
 

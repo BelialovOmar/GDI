@@ -1,6 +1,6 @@
 ﻿namespace Lesson_1
 {
-    partial class Form5
+    partial class RemoveButtons
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Form5
+            // RemoveButtons
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(562, 533);
-            this.Name = "Form5";
-            this.Text = "Form5";
+            this.Name = "RemoveButtons";
+            this.Text = "Remove Buttons";
             this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
 
