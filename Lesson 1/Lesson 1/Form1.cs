@@ -118,5 +118,20 @@ namespace Lesson_1
         {
             new RemoveButtons().ShowDialog();
         }
+
+        private void child_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //new ChildParent().ShowDialog();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Form5().ShowDialog();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new drop().ShowDialog();
+        }
     }
 }

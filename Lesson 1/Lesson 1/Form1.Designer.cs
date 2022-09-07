@@ -33,6 +33,9 @@
             this.button3 = new System.Windows.Forms.Button();
             this.TimerDemo = new System.Windows.Forms.Button();
             this.RemoveButtons = new System.Windows.Forms.Button();
+            this.child = new System.Windows.Forms.LinkLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // button1
@@ -85,11 +88,47 @@
             this.RemoveButtons.UseVisualStyleBackColor = true;
             this.RemoveButtons.Click += new System.EventHandler(this.RemoveButtons_Click);
             // 
+            // child
+            // 
+            this.child.AutoSize = true;
+            this.child.Location = new System.Drawing.Point(100, 266);
+            this.child.Name = "child";
+            this.child.Size = new System.Drawing.Size(221, 16);
+            this.child.TabIndex = 5;
+            this.child.TabStop = true;
+            this.child.Text = "child сделать норм диайзн потом";
+            this.child.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.child_LinkClicked);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(397, 327);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(70, 16);
+            this.linkLabel1.TabIndex = 6;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "задание2";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(248, 300);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(73, 16);
+            this.linkLabel2.TabIndex = 7;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "задание 3";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.linkLabel2);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.child);
             this.Controls.Add(this.RemoveButtons);
             this.Controls.Add(this.TimerDemo);
             this.Controls.Add(this.button3);
@@ -102,6 +141,7 @@
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -112,6 +152,9 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button TimerDemo;
         private System.Windows.Forms.Button RemoveButtons;
+        private System.Windows.Forms.LinkLabel child;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 
