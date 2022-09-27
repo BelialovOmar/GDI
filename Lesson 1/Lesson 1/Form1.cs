@@ -133,5 +133,11 @@ namespace Lesson_1
         {
             new drop().ShowDialog();
         }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Form6().ShowDialog();
+
+        }
     }
 }
