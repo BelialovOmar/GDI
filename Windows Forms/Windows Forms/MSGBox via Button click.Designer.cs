@@ -28,18 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ButtonOpensMSGBox = new System.Windows.Forms.Button();
+            this.ButtonMSGBoxClick = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // ButtonOpensMSGBox
+            // ButtonMSGBoxClick
             // 
-            this.ButtonOpensMSGBox.BackColor = System.Drawing.Color.Beige;
-            this.ButtonOpensMSGBox.Location = new System.Drawing.Point(12, 12);
-            this.ButtonOpensMSGBox.Name = "ButtonOpensMSGBox";
-            this.ButtonOpensMSGBox.Size = new System.Drawing.Size(205, 153);
-            this.ButtonOpensMSGBox.TabIndex = 0;
-            this.ButtonOpensMSGBox.Text = "Press Me!";
-            this.ButtonOpensMSGBox.UseVisualStyleBackColor = false;
+            this.ButtonMSGBoxClick.BackColor = System.Drawing.Color.Beige;
+            this.ButtonMSGBoxClick.Location = new System.Drawing.Point(12, 12);
+            this.ButtonMSGBoxClick.Name = "ButtonMSGBoxClick";
+            this.ButtonMSGBoxClick.Size = new System.Drawing.Size(205, 153);
+            this.ButtonMSGBoxClick.TabIndex = 0;
+            this.ButtonMSGBoxClick.Text = "Press Me!";
+            this.ButtonMSGBoxClick.UseVisualStyleBackColor = false;
+            this.ButtonMSGBoxClick.Click += new System.EventHandler(this.ButtonMSGBoxClick_Click);
             // 
             // MSGBox_via_Button_click
             // 
@@ -47,7 +48,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(229, 177);
-            this.Controls.Add(this.ButtonOpensMSGBox);
+            this.Controls.Add(this.ButtonMSGBoxClick);
             this.Name = "MSGBox_via_Button_click";
             this.Text = "MSGBox";
             this.ResumeLayout(false);
@@ -56,6 +57,6 @@
 
         #endregion
 
-        private Button ButtonOpensMSGBox;
+        private Button ButtonMSGBoxClick;
     }
 }

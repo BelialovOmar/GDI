@@ -6,5 +6,10 @@ namespace Windows_Forms
         {
             InitializeComponent();
         }
+
+        private void linkMessageBoxviaBtnClick_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new MSGBox_via_Button_click().ShowDialog(); 
+        }
     }
 }
